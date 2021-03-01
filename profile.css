@@ -1,0 +1,14 @@
+#b{
+    margin-left: 500px;
+    margin-top: 25px;
+    border: darkred 1px;
+    background-color:lightcyan;
+}
+#c{
+    color:darkred;
+}
+.education{
+    border-style: dashed;
+    border-color: sienna;
+    
+}

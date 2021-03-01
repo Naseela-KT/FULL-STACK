@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>/*internal*/
+         td,th{
+             border: 1px solid red;
+             text-align: left;
+             padding: 5px;
+             }
+             form{
+                 border-style: dotted;
+                 border-radius: 1px;
+                 border-color: salmon;
+                 margin: 5px;
+                 padding: 5px;
+             }
+             p{
+                 text-align: right;
+             }
+        </style>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" readonly placeholder="Your name..">
+            
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" disabled placeholder="Your last name...">
+
+            <input type="submit" value="Submit">
+
+            password
+            <input type="password" readonly placeholder="Enter password">
+        </form>
+        <table style="border: 1px solid">
+            <caption>Student details</caption>
+            <tr><th>Nmae</th><th>ID</th></tr>
+            <tr><td>Naseela</td><td>123</td></tr>
+        </table>
+        <p id="para">This is id selector</p>
+        <p class="paragraph">This is class selector</p>
+    </body>
+</html>
