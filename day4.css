@@ -1,0 +1,20 @@
+#img{
+    background-image: url(pic.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+a:active{
+    color: darkblue;
+}
+a:hover{
+    color: darkgoldenrod;
+}
+a:visited{
+    color: darkorchid;
+}
+ul{
+    list-style: circle;
+}
+ol{
+    list-style: upper-alpha;
+}
